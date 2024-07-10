@@ -30,8 +30,8 @@ export default function TopNav() {
             <Image
               width={115}
               height={115}
-              className="min-w-[115px] w-[115px]"
-              src="/images/zudio-logo.png"
+              className="min-w-[115px] w-[115px] p-2"
+              src="/images/inventra.png"
               alt={""}
             />
           </Link>
