@@ -54,10 +54,12 @@ export default function TopNav() {
                   className="flex items-center justify-between w-full cursor-pointer hover:bg-rose-500 p-1 px-2 hover:text-white"
                 >
                   <div className="flex items-center">
-                    <img
+                    <Image
                       className="rounded-md"
                       width="40"
+                      height="40"
                       src="https://placehold.co/40"
+                      alt={""}
                     />
                     <div className="truncate ml-2">Artemis Garth</div>
                   </div>

@@ -11,7 +11,7 @@ export default function MenuItem({
   sizeString,
 }: MenuItemTypes) {
   const icons = () => {
-    if (iconString == "ForYou")
+    if (iconString == "For You")
       return <AiOutlineHome size={sizeString} color={colorString} />;
     if (iconString == "Following")
       return <RiGroupLine size={sizeString} color={colorString} />;
